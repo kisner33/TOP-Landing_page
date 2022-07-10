@@ -1,0 +1,142 @@
+#background {
+    background-color: black;
+}
+
+.container {
+    margin: auto;
+    height: 550px;
+
+    background: #1F2937 ;
+    display: flex;
+
+    margin-left: 60px;
+    margin-right: 60px;
+
+}
+
+.header {
+    
+    height: 36px;
+    color: white;
+    font-size: 18px;
+    margin-left: 250px;
+    margin-top: 20px;
+    flex: 1;
+    gap: 5;
+ 
+}
+
+.awesome {
+    margin-top: 150px;
+    flex-direction: column;
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.awesome_subtext {
+    font-weight: normal;
+    font-size: 18px; 
+    color: #E5E7EB;
+    flex: auto;
+}
+
+
+.img_placeholder {
+    height: 200px;
+    width: 400px;
+    margin-top: 150px;
+    flex: 1;
+    align-items: left;
+    background-color: grey;
+}
+
+.bottom_wrapper {
+    
+    height: 295px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    
+
+
+    
+
+}
+
+.bottom_heading_text_wrapper {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.bottom_heading_text {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.bottom_item {
+    border-radius: 25px;
+    width: 200px;
+    height: 200px;
+    margin-top: 150px;
+    border: 5px solid #3882F6;
+    
+    
+}
+
+.bottom_item_text {
+    text-align: center;
+    width: 200px;
+    height: 200px;
+}
+    
+
+.quote {
+    margin-left: 350px;
+    margin-right: 350px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    font-size: 36px;
+    color: #1F2937
+}
+
+.cta {
+    height: 200px;
+    margin-left: 375px;
+    margin-right: 375px;
+    background-color: #3882F6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 4px solid orange;
+}
+
+.signup_item {
+    height: 80px;
+    flex: 2 1 0;
+    border: 4px solid pink;
+
+}
+
+.button {
+    color: white;
+    background: #3882F6;
+    text-align: center;
+    margin-right: 150px;
+    height: 50px;
+    width: 200px;
+    border: 4px solid white ;
+    border-radius: 8px;
+}
